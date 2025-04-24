@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bazi Reading</title>
+</head>
+<body>
+  <h2>Get Your Bazi Reading</h2>
+  <form method="POST">
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input name="name" id="name" type="text" required><br><br>
+
+    <!-- Gender -->
+    <label for="gender">Gender:</label><br>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br><br>
+
+    <!-- Birthdate -->
+    <label for="birthdate">Birthdate:</label><br>
+    <input name="birthdate" id="birthdate" type="date" required><br><br>
+
+    <!-- Birth Time -->
+    <label for="birthtime">Birth Time:</label><br>
+    <input name="birthtime" id="birthtime" type="time" required><br><br>
+
+    <!-- Birthplace -->
+    <label for="birthplace">Birthplace:</label><br>
+    <input name="birthplace" id="birthplace" type="text" required><br><br>
+
+    <!-- Question -->
+    <label for="question">Your Question:</label><br>
+    <textarea name="question" id="question" rows="4" cols="50" placeholder="What do you want to ask about your future?"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
